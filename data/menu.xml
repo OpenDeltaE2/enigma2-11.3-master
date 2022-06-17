@@ -15,7 +15,6 @@
 -->
 		<item level="0" text="About" entryID="about_screen"><screen module="About"/></item>
 		<item level="1" text="VCR scart" entryID="scart_switch" conditional="config.usage.show_vcr_scart.value" requires="ScartSwitch"><code>self.session.scart.VCRSbChanged(3)</code></item>
-		
 	        <menu level="0" text="Setup" flushConfigOnClose="1" entryID="setup_selection" >
 			<id val="setup"/>
 			<menu weight="7" level="0" text="Tuners &amp; scanning" entryID="service_searching_selection">
@@ -82,7 +81,6 @@
 		</menu>
 		<item level="0" text="Plugins" entryID="plugin_selection"><screen module="PluginBrowser" screen="PluginBrowser"/></item>
 		<item level="0" text="Timer" entryID="timer_edit"><screen module="TimerEdit" screen="TimerEditList"/></item>
-
 		<menu text="Standby / restart" entryID="standby_restart_list">
 			<id val="shutdown"/>
 			<item text="Sleep timer" entryID="sleep"><screen module="SleepTimerEdit" screen="SleepTimerEdit"/></item>
