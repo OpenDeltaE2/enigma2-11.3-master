@@ -36,9 +36,8 @@ class About(Screen):
 		AboutText += _("Image: ") + about.getImageTypeString() + "-" + getImageBuild() + "\n"
 		AboutText += _("Build date: ") + about.getBuildDateString() + "\n"
 		AboutText += _("Last update: ") + about.getUpdateDateString() + "\n"
-	
 		# [WanWizard] Removed until we find a reliable way to determine the installation date
-		AboutText += _("Installed: ") + about.getFlashDateString() + "\n"
+		# AboutText += _("Installed: ") + about.getFlashDateString() + "\n"
 
 		EnigmaVersion = about.getEnigmaVersionString()
 		EnigmaVersion = EnigmaVersion.rsplit("-", EnigmaVersion.count("-") - 2)
