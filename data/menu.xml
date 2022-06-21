@@ -42,7 +42,7 @@
 			<item level="1" text="Hotkey" entryID="hotkey_setup"><screen module="Hotkey" screen="HotkeySetup"/></item>
 		        <item level="0" text="Factory reset" entryID="factory_reset"><screen module="FactoryReset" screen="FactoryReset"/></item>
 			<item level="0" text="Software update" entryID="software_update"><screen module="SoftwareUpdate" screen="UpdatePlugin"/></item>
-		</menu>
+
                 <menu text="Tuners &amp; scanning" entryID="service_searching_selection">
 			<id val="scan"/>
 			<item text="Tuner configuration" entryID="tuner_setup" conditional="nimmanager.nim_slots"><screen module="Satconfig" screen="NimSelection"/></item>
