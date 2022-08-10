@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OBH enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-22 15:03+0100\n"
+"POT-Creation-Date: 2022-07-30 14:55+0200\n"
 "PO-Revision-Date: 2019-04-12 12:36+0300\n"
 "Last-Translator: mosad - مساعد الجعيد <abo-mishal@hotmail.com>\n"
 "Language-Team: mosad - مساعد الجعيد\n"
@@ -664,8 +664,23 @@ msgstr "إعدادات دليل البرامج الإلكترونية"
 msgid "AAC downmix"
 msgstr "ترميز الصوت الرقمي المزدوج"
 
+#, fuzzy
+msgid "AAC transcoding"
+msgstr "بث القنوات عبر الشبكة: "
+
+#, fuzzy
+msgid "AAC+ downmix"
+msgstr "ترميز الصوت الرقمي المزدوج"
+
+msgid "AC3"
+msgstr ""
+
 msgid "AC3 downmix"
 msgstr "ترميز الصوت الثلاثي المنخفض"
+
+#, fuzzy
+msgid "AC3 transcoding"
+msgstr "بث القنوات عبر الشبكة: "
 
 msgid "ACQUIRING TSID/ONID"
 msgstr "الحصول على معرف القناة/معرف الخدمة"
@@ -1106,8 +1121,9 @@ msgstr "أرمينيا"
 msgid "Artist"
 msgstr "الفنان"
 
-msgid "Arts/Culture"
-msgstr "الفنون/الثقافة"
+#, fuzzy
+msgid "Arts/Culture (without music)"
+msgstr "الفنون/الثقافة (بدون موسيقي ، عام)"
 
 msgid "Aruba"
 msgstr "أروبا"
@@ -1272,6 +1288,9 @@ msgstr "بحث آلـى"
 msgid "Automatic scan"
 msgstr "بحث آلـى"
 
+msgid "Automatically power off box to deep standby mode."
+msgstr ""
+
 msgid "Automatically put the TV in standby whenever the receiver goes into standby or deep standby."
 msgstr ""
 
@@ -1287,6 +1306,9 @@ msgstr "متغيرات التهئية المتاحه"
 #, fuzzy
 msgid "Available locales are:"
 msgstr "المشاركات المتوفرة:"
+
+msgid "Axas E4HD Ultra"
+msgstr ""
 
 msgid "Azerbaijan"
 msgstr "أذربيجان"
@@ -1544,6 +1566,10 @@ msgstr "ضبط الكامة الداخلية (واجهة المستخدم)"
 msgid "CI assignment"
 msgstr "مهمة واجهة المستخدم"
 
+#, fuzzy
+msgid "CI enabled"
+msgstr "تم التفعيل"
+
 msgid "CI slot: "
 msgstr ""
 
@@ -1556,6 +1582,10 @@ msgstr "كيبل"
 
 msgid "Cable Scan"
 msgstr "بحث عن قنوات الكيبل"
+
+#, python-format
+msgid "Cable scan executable utility not found '%s'!"
+msgstr ""
 
 msgid "Cabo Verde"
 msgstr "كابو فيردي"
@@ -1790,8 +1820,9 @@ msgstr ""
 "التحقق من المؤالف %s\n"
 "منفذ الدايزك %s إلى %s"
 
-msgid "Children/Youth"
-msgstr "الأطفال/الشباب"
+#, fuzzy
+msgid "Children/Youth/Education/Science"
+msgstr "التعليم/العلوم/الوقائع"
 
 msgid "Chile"
 msgstr "تشيلي"
@@ -1812,6 +1843,26 @@ msgstr "أختار الباقة"
 #, fuzzy
 msgid "Choose bouquet"
 msgstr "أختار الباقة"
+
+#, fuzzy
+msgid "Choose whether AAC sound tracks should be transcoded."
+msgstr "اختار ما إذا كانت المسارات الصوتية متعددة القنوات يجب أن تكون مختلطة إلى ستريو."
+
+#, fuzzy
+msgid "Choose whether AC3 sound tracks should be transcoded."
+msgstr "اختار ما إذا كانت المسارات الصوتية متعددة القنوات يجب أن تكون مختلطة إلى ستريو."
+
+#, fuzzy
+msgid "Choose whether WMA Pro sound tracks should be downmixed."
+msgstr "اختار ما إذا كانت المسارات الصوتية متعددة القنوات يجب أن تكون مختلطة إلى ستريو."
+
+#, fuzzy
+msgid "Choose whether multi channel DTS-HD(HR/MA) sound tracks should be downmixed or transcoded."
+msgstr "اختار ما إذا كانت المسارات الصوتية متعددة القنوات يجب أن تكون مختلطة إلى ستريو."
+
+#, fuzzy
+msgid "Choose whether multi channel aac+ sound tracks should be downmixed to stereo."
+msgstr "اختار ما إذا كانت المسارات الصوتية متعددة القنوات يجب أن تكون مختلطة إلى ستريو."
 
 msgid "Choose whether to scan a single transponder, one satellite or multiple satellites."
 msgstr ""
@@ -2567,6 +2618,10 @@ msgstr "التشيكية"
 msgid "D"
 msgstr "ثلاثي الابعاد"
 
+#, fuzzy
+msgid "DAC"
+msgstr "PDC"
+
 msgid "DHCP"
 msgstr "برتوكول تكوين المضيف آليا"
 
@@ -2576,7 +2631,14 @@ msgstr "ضبط الريموت المتقدم"
 msgid "DMM normal"
 msgstr "ضبط الريموت العادي"
 
+msgid "DTS"
+msgstr ""
+
 msgid "DTS downmix"
+msgstr "الصوت الدولبي / نظام المسرح الرقمي المزدوج"
+
+#, fuzzy
+msgid "DTS-HD(HR/MA) downmix"
 msgstr "الصوت الدولبي / نظام المسرح الرقمي المزدوج"
 
 msgid "DUAL LAYER DVD"
@@ -2666,6 +2728,9 @@ msgstr "نوع التسيجل الإفتراضي"
 #, fuzzy
 msgid "Default+Picon"
 msgstr "الإفتراضي"
+
+msgid "Define additional delay in milliseconds before start of http(s) streams, e.g. to connect a remote tuner, you use a complex system of DiSEqC."
+msgstr ""
 
 msgid "Define the location of the EPG Cache file."
 msgstr ""
@@ -2893,6 +2958,10 @@ msgstr "المجلد %s غير موجود."
 
 msgid "Disable"
 msgstr "تعطيل"
+
+#, fuzzy
+msgid "Disable FCC during recordings"
+msgstr "إيقاف جميع التسجيلات الحالية"
 
 msgid "Disable Picture in Picture"
 msgstr "تعطيل صوره داخل صوره"
@@ -3163,6 +3232,10 @@ msgstr "تحميل البلج إنز"
 msgid "Downloadable plugins"
 msgstr "تحميل البلج إنز"
 
+#, fuzzy
+msgid "Downloaded Images"
+msgstr "جاري التحميل"
+
 msgid "Downloading"
 msgstr "جاري التحميل"
 
@@ -3175,6 +3248,13 @@ msgstr "إعادة محاولة تحميل قائمة حزم جديدة. الر�
 
 msgid "Downloading plugin information. Please wait..."
 msgstr "جاري تحميل معلومات عن البلج إنز. رجاء الانتظار.."
+
+#, fuzzy
+msgid "Downmix"
+msgstr "الصوت الدولبي / نظام المسرح الرقمي المزدوج"
+
+msgid "Drama and Films"
+msgstr ""
 
 #, fuzzy
 msgid "Drop unconfigured satellites"
@@ -3220,7 +3300,7 @@ msgid "ERROR - failed to scan (%s)!"
 msgstr "خطأ - فشل البحث (%s)!"
 
 #, python-format
-msgid "ERROR downloading file %s"
+msgid "ERROR downloading file %s/%s"
 msgstr ""
 
 msgid "East"
@@ -3280,10 +3360,6 @@ msgstr "تعديل العنوان"
 #, fuzzy
 msgid "Edit update source url"
 msgstr "تحرير عنوان مصدر الترقيه."
-
-#, fuzzy
-msgid "Education/Science/..."
-msgstr "التعليم/العلوم/الوقائع"
 
 msgid "Egypt"
 msgstr "مصر"
@@ -3356,6 +3432,10 @@ msgstr "تمكين البحث السريع الآلي"
 msgid "Enable auto fastscan for %s"
 msgstr "تفعيل البحث التلقائي السريع %s"
 
+#, fuzzy
+msgid "Enable bluetooth audio"
+msgstr "تمكين تعديل الباقة"
+
 msgid "Enable bouquet edit"
 msgstr "تمكين تعديل الباقة"
 
@@ -3389,6 +3469,10 @@ msgstr "تمكين جدول معلومات الحدث في دليل البرام
 
 msgid "Enable parental protection"
 msgstr "تمكين الحماية الأبوية"
+
+#, fuzzy
+msgid "Enable power off timer"
+msgstr "تمكين وضع التحريك للقنوات"
 
 msgid "Enable remote enigma2 receiver to be tried to tune into services that cannot be tuned into locally (e.g. tuner is occupied or service type is unavailable on the local tuner. Specify complete URL including http:// and port number (normally ...:8001), e.g. http://second_box:8001."
 msgstr ""
@@ -3538,10 +3622,6 @@ msgid "Eritrea"
 msgstr "إريتريا"
 
 msgid "Error"
-msgstr "خطأ"
-
-#, fuzzy, python-format
-msgid "Error %s"
 msgstr "خطأ"
 
 msgid "Error code"
@@ -3797,6 +3877,14 @@ msgstr ""
 "لاقط أف بي سي التلقائي\n"
 "غير نشط"
 
+#, fuzzy
+msgid "FCC enabled"
+msgstr "تم التفعيل"
+
+#, fuzzy
+msgid "FCCSetup"
+msgstr "الضبط"
+
 msgid "FEC"
 msgstr "خاصية تصحيح الخطأ"
 
@@ -3900,6 +3988,15 @@ msgstr "جزر فاروي"
 msgid "Fast"
 msgstr "سريع"
 
+msgid "Fast Channel Change"
+msgstr ""
+
+msgid "Fast Channel Change Setup"
+msgstr ""
+
+msgid "Fast Channel Change setup"
+msgstr ""
+
 msgid "Fast DiSEqC"
 msgstr "دايزك سريع"
 
@@ -3997,7 +4094,13 @@ msgstr "سيتم تنفيذ المهام التالية بعد الضغط على
 msgid "Force legacy signal stats"
 msgstr "فرض إحصاءات الإشارات القديمة"
 
+msgid "Force power off (even when not in standby)"
+msgstr ""
+
 msgid "Force zap to recording service in standby"
+msgstr ""
+
+msgid "Forces deep standby, even when not in standby mode. Scheduled recordings remain unaffected."
 msgstr ""
 
 msgid "Format"
@@ -4073,6 +4176,10 @@ msgstr "شفافية كاملة"
 msgid "Full view resolution"
 msgstr "جميع أنواع الدقة"
 
+#, fuzzy
+msgid "Fullbackup Images"
+msgstr "ضبط مؤالف التراجع"
+
 msgid "Function of OK button"
 msgstr ""
 
@@ -4122,6 +4229,10 @@ msgstr "تأخير ترميز الصوت الثلاثي العام"
 
 msgid "General PCM delay"
 msgstr "تأخير تعديل ترميز الذبذبة العام"
+
+#, fuzzy
+msgid "General bluetooth audio delay"
+msgstr "تأخير ترميز الصوت الثلاثي العام"
 
 msgid "Genre"
 msgstr "تصنيف"
@@ -4296,7 +4407,10 @@ msgstr "قائمة عالية الوضوح"
 msgid "HD2400"
 msgstr "HD2400"
 
-msgid "HD60/Multibox/Multibox SE"
+msgid "HD60/HD66SE/Multibox/Multibox SE"
+msgstr ""
+
+msgid "HDMI"
 msgstr ""
 
 msgid "HDMI Colordepth"
@@ -4369,6 +4483,9 @@ msgstr "ضبط القرص الصلب"
 msgid "Harddisk Setup"
 msgstr "ضبط القرص الصلب"
 
+msgid "Hardware Accelerated"
+msgstr ""
+
 msgid "Hardware: "
 msgstr ""
 
@@ -4415,6 +4532,10 @@ msgstr "معلومات المراتب"
 
 msgid "High bitrate support"
 msgstr "دعم معدل البث العالي"
+
+#, fuzzy
+msgid "History Prev/Next"
+msgstr "التحكم في القناة التالية في سجل التنقلات"
 
 msgid "History back"
 msgstr "التحكم في القناة السابقة في سجل التنقلات"
@@ -4473,6 +4594,9 @@ msgstr "كم عدد الدقائق التي تريد إضافتها إلى ال�
 #, fuzzy
 msgid "How many minutes do you want to record?"
 msgstr "كم عدد الدقائق التي تريد تسجيلها ؟"
+
+msgid "Http(s) stream start delay"
+msgstr ""
 
 msgid "Hue"
 msgstr "درجة اللون"
@@ -4549,6 +4673,9 @@ msgid "If set to 'yes' signal values (SNR, etc) will be calculated from API V3. 
 msgstr "إذا تم تعيينها على قيم إشارة 'نعم' (معدل الإشارة ، الخ) فسيتم حسابها من API V3. هذا إصدار API قديم تم استبداله الآن."
 
 msgid "If set to 'yes' the same commands will be sent to the TV for deep standby events, as are sent during regular standby events."
+msgstr ""
+
+msgid "If the box is supposed to enter deep standby e.g. monday night at 1 AM, it actually is already tuesday. To enable this anyway, differing next day start time can be specified here."
 msgstr ""
 
 msgid "If using multiple uncommitted switches the DiSEqC commands must be sent multiple times. Set to the number of uncommitted switches in the chain minus one."
@@ -5011,9 +5138,6 @@ msgstr "يسار"
 msgid "Left from servicename"
 msgstr "أسم القناة في اليسار"
 
-msgid "Leisure hobbies"
-msgstr "هوايات الترفيه"
-
 msgid "Lesotho"
 msgstr "ليسوتو"
 
@@ -5290,6 +5414,10 @@ msgstr "موريتانيا"
 msgid "Mauritius"
 msgstr "موريشيوس"
 
+#, fuzzy
+msgid "Max channels"
+msgstr "قنوات"
+
 msgid "Max memory positions"
 msgstr "أماكن الذاكرة القصوى"
 
@@ -5304,13 +5432,6 @@ msgstr "مايوت"
 
 msgid "Media player"
 msgstr "مشغل الوسائط"
-
-#, fuzzy
-msgid "Media player: GStreamer, version "
-msgstr "إصدار جديد:"
-
-msgid "Media player: ffmpeg, version "
-msgstr ""
 
 msgid "Media scanner"
 msgstr "باحث الوسائط"
@@ -5511,9 +5632,6 @@ msgstr "مكان الفيلم"
 msgid "Movie selection"
 msgstr "أختيار الأفلام"
 
-msgid "Movie/Drama"
-msgstr "فيلم/دراما"
-
 msgid "Movielist menu"
 msgstr "ضبط قائمة الأفلام"
 
@@ -5705,7 +5823,7 @@ msgid "New Zealand"
 msgstr "نيوزلندا"
 
 #, fuzzy
-msgid "News Current Affairs"
+msgid "News/Current Affairs/Social"
 msgstr "الاخبار/الشئون الحالية"
 
 #, fuzzy
@@ -5716,6 +5834,9 @@ msgstr "التالي"
 msgctxt "now/next: 'next' event label"
 msgid "Next"
 msgstr "التالي"
+
+msgid "Next day starts at"
+msgstr ""
 
 msgid "Nicaragua"
 msgstr "نيكاراغوا"
@@ -6054,6 +6175,10 @@ msgid "Only on startup"
 msgstr "فقط عند بدء التشغيل"
 
 #, fuzzy
+msgid "Only power off"
+msgstr "تمكين وضع التحريك للقنوات"
+
+#, fuzzy
 msgid "Only select 'yes' if you are using a multiswich that requires a DiSEqC Port-A command signal. For all other setups select 'no'."
 msgstr "حدد فقط 'نعم' إذا كنت تستخدم جهاز القسام المتعدد الذي يتطلب إشارة أمر الدايزك بمنفذ أ. بالنسبة إلى جميع الإعدادات الأخرى ، حدد 'لا'."
 
@@ -6080,7 +6205,7 @@ msgstr ""
 msgid "Operating LED status in standby mode"
 msgstr ""
 
-msgid "Operating LED status while running."
+msgid "Operating LED status while running"
 msgstr ""
 
 msgid "Opkg"
@@ -6217,6 +6342,9 @@ msgstr "إظهار خدمات الرقابة الأبوية"
 #, fuzzy
 msgid "Parental control setup"
 msgstr "الرقابة الأبوية"
+
+msgid "Passthrough"
+msgstr ""
 
 msgid "Password"
 msgstr "كلمة المرور"
@@ -6645,6 +6773,13 @@ msgid "Power management. Consult your receiver's manual for more information."
 msgstr "إدارة الإغلاق. راجع دليل المتلقي الخاص بك للحصول على المعلومات."
 
 #, fuzzy
+msgid "Power off time"
+msgstr "وقت البدء"
+
+msgid "Power off timer"
+msgstr ""
+
+#, fuzzy
 msgid "Power on display"
 msgstr "إغلاق شاشة العرض الصغيرة"
 
@@ -6999,6 +7134,9 @@ msgstr "تسجيل"
 #, fuzzy
 msgid "Recall to previous service"
 msgstr "العوده إلى خدمة القناة السابقه"
+
+msgid "Receiver or driver does not support FCC"
+msgstr ""
 
 #, fuzzy
 msgid "Reception settings"
@@ -7443,6 +7581,9 @@ msgstr "الإشارة:"
 
 msgid "SNR:"
 msgstr "الإشارة:"
+
+msgid "SPDIF"
+msgstr ""
 
 msgid "SRT file"
 msgstr "ملف الترجمة"
@@ -8201,6 +8342,9 @@ msgstr "بحث عـن القنـوات"
 msgid "Service title mode"
 msgstr "وضع عنوان الخدمة"
 
+msgid "Service type 4097 incorrect for PiP!"
+msgstr ""
+
 msgid ""
 "Service unavailable!\n"
 "Check tuner configuration!"
@@ -8238,6 +8382,10 @@ msgstr "تعيين قناة بدء التشغيل"
 
 msgid "Set blocktimes by weekday"
 msgstr ""
+
+#, fuzzy
+msgid "Set cursor on service from channel history"
+msgstr "التحكم في القناة السابقة في سجل التنقلات"
 
 msgid "Set default"
 msgstr "تعيين افتراضي"
@@ -8369,10 +8517,6 @@ msgstr "عرض دليل البرامج الإلكتروني للقناة الح�
 
 msgid "Show EPG..."
 msgstr "عرض دليل البرامج الإلكترونية..."
-
-#, fuzzy
-msgid "Show Games show"
-msgstr "عرض/الألعاب عرض"
 
 #, fuzzy
 msgid "Show InfoBar"
@@ -8629,6 +8773,10 @@ msgid "Show warning when timeshift is stopped"
 msgstr "عرض تنبيه عندما يتم إيقاف خاصية التايم شفت"
 
 #, fuzzy
+msgid "Show/Game Show/Leisure hobbies"
+msgstr "هوايات الترفيه"
+
+#, fuzzy
 msgid "Show/hide window"
 msgstr "عرض المعلومات"
 
@@ -8798,9 +8946,6 @@ msgstr "كلمة المرور للبطاقة الذكية"
 
 msgid "Smooth"
 msgstr "ناعم"
-
-msgid "Social/Political/Economics"
-msgstr "اجتماعي/سياسي/اقتصادي"
 
 msgid "SocketMMI"
 msgstr ""
@@ -9325,7 +9470,7 @@ msgstr ""
 msgid "Switch on the display during Suspend Mode"
 msgstr ""
 
-msgid "Switch on the display during operation."
+msgid "Switch on the display during operation"
 msgstr ""
 
 #, fuzzy
@@ -9803,11 +9948,19 @@ msgstr "هذا الخيار يسمح لك لإظهار الأرقام في ال�
 msgid "This option allows you to show the full screen path leading to the current screen."
 msgstr "يسمح لك هذا الخيار لإظهار مسار القائمة الكاملة"
 
+#, fuzzy
+msgid "This option allows you to switch audio to bluetooth speakers."
+msgstr "يتيح لك هذا الخيار بتعيين عرض التصميم (نصوص أو الرسم البياني)"
+
 msgid "This option allows you to view the old and new settings side by side."
 msgstr "يتيح لك هذا الخيار لعرض الجانب الإعدادات القديمة والجديدة جنبآ إلى جنب."
 
 msgid "This option can be useful for long HDMI cables."
 msgstr ""
+
+#, fuzzy
+msgid "This option configures the general audio delay for bluetooth speakers."
+msgstr "هذا الخيار لإعداد تأخير الصوت العام من المسارات صوت الاستيريو."
 
 msgid "This option set the level of surpression of mosquito noise (Mosquito Noise is random aliasing as a result of strong compression). Obviously this goes at the cost of picture details."
 msgstr "هذا الخيار تعيين مستوي الذبذبة من الضوضاء البعوض (البعوض الضوضاء هو التعرج عشوائي نتيجة لضغط قوي). ومن الواضح ان هذا ينطبق علي تكلفه تفاصيل الصورة."
@@ -10808,6 +10961,10 @@ msgstr "W"
 msgid "WLAN connection"
 msgstr "إتصال شبكة عبر الوايفاي"
 
+#, fuzzy
+msgid "WMA Pro downmix"
+msgstr "ترميز الصوت الرقمي المزدوج"
+
 msgid "WSS on 4:3"
 msgstr "الشاشة العريضة تعمل 4:3"
 
@@ -11128,7 +11285,7 @@ msgstr "عند التمكين سيتم عرض الترجمة النصية للق
 msgid "When enabled, the VCR scart option will be shown on the main menu"
 msgstr "عند التمكين، سيتم عرض خيار مدخل سكارت في القائمة الرئيسية"
 
-msgid "When enabled, the channel selection list will be hidden while listening to a radio channel"
+msgid "When enabled, the channel selection list will be hidden while listening to a radio channel. When disabled, the option 'Auto play last service in radio mode' is available."
 msgstr ""
 
 #, fuzzy
@@ -11161,6 +11318,10 @@ msgstr "عند التمكين، سيختار جهاز الاستقبال مسا�
 
 msgid "When enabled, the receiver will select an AC3+ track (when available)."
 msgstr "عند التمكين، سيختار جهاز الاستقبال مسار الصوتي الثلاثي (عند توفره)."
+
+#, fuzzy
+msgid "When enabled, then when changing bouquets, set the cursor on the service from the channel history in the channel selection list."
+msgstr "عند التمكين، سيعرض أرقام القنوات في شاشة اختيار القناة."
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
 msgstr "عند التمكين، يكون هذا العدد أكثر وزنا من 'المؤالف المفضل للتسجيلات'."
@@ -11516,6 +11677,10 @@ msgstr "زامبيا"
 msgid "Zap"
 msgstr "التنقل"
 
+#, fuzzy
+msgid "Zap Up/Down"
+msgstr "أنتقل للاسفل"
+
 msgid "Zap back to previously tuned service?"
 msgstr "هل تريد الإنتقال إلى أخر قناة في البحث؟"
 
@@ -11564,7 +11729,7 @@ msgstr "تم الانتقال إلى قناة المؤقت %s!"
 msgid "Zgemma H.S/H.2S/H.2H/H5/H7(old model)"
 msgstr ""
 
-msgid "Zgemma H9(old model)/I55Plus"
+msgid "Zgemma H9(old model)/I55Plus/H8"
 msgstr ""
 
 msgid "Zgemma Star S/2S/H1/H2"
@@ -11615,7 +11780,8 @@ msgstr ""
 msgid "additional cable of rotor"
 msgstr ""
 
-msgid "adult movie/drama"
+#, fuzzy
+msgid "adult movie"
 msgstr "فيلم الكبار/الدراما"
 
 msgid "advanced"
@@ -11715,9 +11881,6 @@ msgstr "أفضل"
 msgid "black"
 msgstr "أسود"
 
-msgid "black & white"
-msgstr "أسود و أبيض"
-
 msgid "blacklist"
 msgstr "القائمه السوداء"
 
@@ -11749,7 +11912,7 @@ msgid "chapters"
 msgstr "الفصول"
 
 #, fuzzy
-msgid "childrens's/youth program (general)"
+msgid "childrens's youth program (general)"
 msgstr "برنامج الأطفال/الشباب (عام)"
 
 msgid "circular left"
@@ -11764,10 +11927,6 @@ msgstr "مقطع أعلى بحث / حدود الحواف"
 msgid "comedy"
 msgstr "كوميدي"
 
-#, fuzzy
-msgid "config menu"
-msgstr "تم التأكيد"
-
 msgid "confirmed"
 msgstr "تم التأكيد"
 
@@ -11776,6 +11935,16 @@ msgstr "تم الاتصال"
 
 msgid "controlled by HDMI"
 msgstr ""
+
+msgid "convert to AC3"
+msgstr ""
+
+msgid "convert to DTS"
+msgstr ""
+
+#, fuzzy
+msgid "convert to multi-channel PCM"
+msgstr "قنوات متعددة لترميز الذبذبة العام"
 
 msgid "cooking"
 msgstr "الطبخ"
@@ -11833,7 +12002,8 @@ msgstr "شرق"
 msgid "economics/social advisory"
 msgstr "الاقتصاد/الاستشارات الاجتماعية"
 
-msgid "education/science/factual topics (general)"
+#, fuzzy
+msgid "educational/science/factual topics (general)"
 msgstr "التعليم/العلوم/المواضيع الواقعية (عام)"
 
 msgid "embedded"
@@ -11928,7 +12098,8 @@ msgstr "فيلم/سينما"
 msgid "fine arts"
 msgstr "الفنون الجميلة"
 
-msgid "fitness & health"
+#, fuzzy
+msgid "fitness and health"
 msgstr "اللياقة البدنية والصحة"
 
 msgid "flat alphabetic"
@@ -11968,9 +12139,6 @@ msgstr "مزيد من التعليم"
 
 msgid "game show/quiz/contest"
 msgstr "عرض اللعبة/أختبار/مسابقة"
-
-msgid "gardening"
-msgstr "الحدائق"
 
 msgid "go to deep standby"
 msgstr "الذهاب الى وضع الاستعداد العميق"
@@ -12083,8 +12251,9 @@ msgstr "المحاذاة للأحداث"
 msgid "literature"
 msgstr "الادب"
 
-msgid "live broadcast"
-msgstr "بث مباشر"
+#, fuzzy
+msgid "local sports"
+msgstr "فريق الرياضة"
 
 msgid "locked"
 msgstr "مغلق"
@@ -12109,6 +12278,10 @@ msgstr "القائمة"
 
 msgid "mins"
 msgstr "دقائق"
+
+#, fuzzy
+msgid "module disabled"
+msgstr "تم التعطيل"
 
 msgid "month"
 msgstr "شهر"
@@ -12135,7 +12308,8 @@ msgstr "تحرك للأعلى إلى المدخل الأول"
 msgid "move up to previous entry"
 msgstr "تحرك للأعلى المدخل السابق"
 
-msgid "movie/drama (general)"
+#, fuzzy
+msgid "movie (general)"
 msgstr "فيلم/دراما (عام)"
 
 msgid "multi"
@@ -12275,9 +12449,6 @@ msgstr "فتح تكوين أسم الخادم"
 msgid "original"
 msgstr "الأصلي"
 
-msgid "original language"
-msgstr "اللغة الاصلية"
-
 msgid "pass"
 msgstr "مرور"
 
@@ -12300,6 +12471,13 @@ msgstr "الثقافة الشعبية/الفنون التقليدية"
 
 msgid "pre-school children's program"
 msgstr "برنامج الأطفال قبل المدرسة"
+
+msgid "preserve bookmarks in cuts"
+msgstr ""
+
+#, fuzzy
+msgid "priority"
+msgstr "الأولوية"
 
 #, fuzzy
 msgid "receiver software because updates are available."
@@ -12325,6 +12503,10 @@ msgstr "حذف بعد هذا المكان"
 
 msgid "remove before this position"
 msgstr "حذف قبل هذا المكان"
+
+#, fuzzy
+msgid "remove bookmarks in cuts"
+msgstr "إزالة العلامة المرجعية"
 
 msgid "remove this mark"
 msgstr "حذف هذه العلامة"
@@ -12382,7 +12564,8 @@ msgstr "أختار القائمة المدخلة"
 msgid "serious music/classic music"
 msgstr "موسيقى هادئه/موسيقى كلاسيكية"
 
-msgid "serious/classical/religious/historical movie/drama"
+#, fuzzy
+msgid "serious/classical/religious/historical drama"
 msgstr "هادئه/الكلاسيكية/الدينية/التاريخية الفيلم/الدراما"
 
 #, fuzzy
@@ -12464,13 +12647,14 @@ msgid "slot%s - %s, without backup"
 msgstr ""
 
 #, fuzzy
-msgid "soap/melodram/folkloric"
+msgid "soap/melodrama/folkloric"
 msgstr "ميلودراما/الفولكلوري"
 
 msgid "social/political issues/economics (general)"
 msgstr "القضايا الاجتماعية/السياسية/الاقتصاد (عام)"
 
-msgid "social/spiritual science"
+#, fuzzy
+msgid "social/spiritual sciences"
 msgstr "العلوم الاجتماعية/الروحية"
 
 msgid "space"
@@ -12524,10 +12708,11 @@ msgstr "الانتقال إلى لغة الترجمة التالية"
 msgid "talk show"
 msgstr "برنامج حواري"
 
-msgid "team sports"
-msgstr "فريق الرياضة"
+msgid "team sports/excluding football"
+msgstr ""
 
-msgid "technology/natural science"
+#, fuzzy
+msgid "technology/natural sciences"
 msgstr "التكنولوجيا/العلوم الطبيعية"
 
 msgid "template file"
@@ -12578,15 +12763,18 @@ msgstr "قناة مجهولة"
 msgid "unknown service"
 msgstr "قناة مجهولة"
 
-msgid "unpublished"
-msgstr "غير منشورة"
-
 #, fuzzy
 msgid "untestable"
 msgstr "تفعيل"
 
 msgid "until standby/restart"
 msgstr "حتى وضع الانتظار/إعادة التشغيل"
+
+msgid "use HDMI cacenter"
+msgstr ""
+
+msgid "use best / controlled by HDMI"
+msgstr ""
 
 msgid "user defined"
 msgstr "محدده من قبل المستخدم"
@@ -12597,6 +12785,9 @@ msgstr "محدده من قبل المستخدم"
 
 msgid "variety show"
 msgstr "عرض متنوع"
+
+msgid "version"
+msgstr "إصدار"
 
 msgid "vertical"
 msgstr "رأسي"

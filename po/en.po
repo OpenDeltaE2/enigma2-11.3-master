@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-06 00:00+0100\n"
-"PO-Revision-Date: 2022-08-06 00:00+0200\n"
+"POT-Creation-Date: 2022-07-30 14:55+0200\n"
+"PO-Revision-Date: \n"
 "Last-Translator: satdreamgr\n"
 "Language-Team: \n"
 "Language: en\n"
@@ -590,7 +590,19 @@ msgstr "A/V settings"
 msgid "AAC downmix"
 msgstr ""
 
+msgid "AAC transcoding"
+msgstr ""
+
+msgid "AAC+ downmix"
+msgstr ""
+
+msgid "AC3"
+msgstr ""
+
 msgid "AC3 downmix"
+msgstr ""
+
+msgid "AC3 transcoding"
 msgstr ""
 
 msgid "ACQUIRING TSID/ONID"
@@ -1016,8 +1028,9 @@ msgstr ""
 msgid "Artist"
 msgstr "Artist"
 
-msgid "Arts/Culture"
-msgstr "Arts/Culture"
+#, fuzzy
+msgid "Arts/Culture (without music)"
+msgstr "arts/culture (without music, general)"
 
 msgid "Aruba"
 msgstr ""
@@ -1176,6 +1189,9 @@ msgstr "Automatic scan"
 msgid "Automatic scan"
 msgstr "Automatic scan"
 
+msgid "Automatically power off box to deep standby mode."
+msgstr ""
+
 msgid "Automatically put the TV in standby whenever the receiver goes into standby or deep standby."
 msgstr ""
 
@@ -1191,6 +1207,9 @@ msgstr "Available format variables"
 #, fuzzy
 msgid "Available locales are:"
 msgstr "Available format variables"
+
+msgid "Axas E4HD Ultra"
+msgstr ""
 
 msgid "Azerbaijan"
 msgstr ""
@@ -1442,6 +1461,10 @@ msgstr ""
 msgid "CI assignment"
 msgstr "CI assignment"
 
+#, fuzzy
+msgid "CI enabled"
+msgstr "enabled"
+
 msgid "CI slot: "
 msgstr ""
 
@@ -1453,6 +1476,10 @@ msgstr "Cable"
 
 msgid "Cable Scan"
 msgstr "Cable Scan"
+
+#, python-format
+msgid "Cable scan executable utility not found '%s'!"
+msgstr ""
 
 msgid "Cabo Verde"
 msgstr ""
@@ -1677,8 +1704,9 @@ msgid ""
 "DiSEqC port %s for %s"
 msgstr ""
 
-msgid "Children/Youth"
-msgstr "Children/Youth"
+#, fuzzy
+msgid "Children/Youth/Education/Science"
+msgstr "Education/Science/..."
 
 msgid "Chile"
 msgstr ""
@@ -1697,6 +1725,26 @@ msgstr ""
 
 msgid "Choose bouquet"
 msgstr ""
+
+#, fuzzy
+msgid "Choose whether AAC sound tracks should be transcoded."
+msgstr "Configure whether multi channel sound tracks should be downmixed to stereo."
+
+#, fuzzy
+msgid "Choose whether AC3 sound tracks should be transcoded."
+msgstr "Configure whether multi channel sound tracks should be downmixed to stereo."
+
+#, fuzzy
+msgid "Choose whether WMA Pro sound tracks should be downmixed."
+msgstr "Configure whether multi channel sound tracks should be downmixed to stereo."
+
+#, fuzzy
+msgid "Choose whether multi channel DTS-HD(HR/MA) sound tracks should be downmixed or transcoded."
+msgstr "Configure whether multi channel sound tracks should be downmixed to stereo."
+
+#, fuzzy
+msgid "Choose whether multi channel aac+ sound tracks should be downmixed to stereo."
+msgstr "Configure whether multi channel sound tracks should be downmixed to stereo."
 
 msgid "Choose whether to scan a single transponder, one satellite or multiple satellites."
 msgstr ""
@@ -2403,6 +2451,9 @@ msgstr "Czech"
 msgid "D"
 msgstr "D"
 
+msgid "DAC"
+msgstr ""
+
 msgid "DHCP"
 msgstr "DHCP"
 
@@ -2412,7 +2463,13 @@ msgstr "DMM advanced"
 msgid "DMM normal"
 msgstr "DMM normal"
 
+msgid "DTS"
+msgstr ""
+
 msgid "DTS downmix"
+msgstr ""
+
+msgid "DTS-HD(HR/MA) downmix"
 msgstr ""
 
 msgid "DUAL LAYER DVD"
@@ -2498,6 +2555,9 @@ msgstr "Timer type"
 #, fuzzy
 msgid "Default+Picon"
 msgstr "Default settings"
+
+msgid "Define additional delay in milliseconds before start of http(s) streams, e.g. to connect a remote tuner, you use a complex system of DiSEqC."
+msgstr ""
 
 #, fuzzy
 msgid "Define the location of the EPG Cache file."
@@ -2719,6 +2779,9 @@ msgstr "Directory contains %(file)s and %(subdir)s."
 
 msgid "Disable"
 msgstr "Disable"
+
+msgid "Disable FCC during recordings"
+msgstr ""
 
 msgid "Disable Picture in Picture"
 msgstr "Disable Picture in Picture"
@@ -2968,6 +3031,10 @@ msgstr "Downloadable new plugins"
 msgid "Downloadable plugins"
 msgstr "Downloadable plugins"
 
+#, fuzzy
+msgid "Downloaded Images"
+msgstr "Downloading"
+
 msgid "Downloading"
 msgstr "Downloading"
 
@@ -2980,6 +3047,12 @@ msgstr "Downloading a new packet list. Please wait..."
 
 msgid "Downloading plugin information. Please wait..."
 msgstr "Downloading plugin information. Please wait..."
+
+msgid "Downmix"
+msgstr ""
+
+msgid "Drama and Films"
+msgstr ""
 
 msgid "Drop unconfigured satellites"
 msgstr "Drop unconfigured satellites"
@@ -3023,7 +3096,7 @@ msgid "ERROR - failed to scan (%s)!"
 msgstr "ERROR - failed to scan (%s)!"
 
 #, python-format
-msgid "ERROR downloading file %s"
+msgid "ERROR downloading file %s/%s"
 msgstr ""
 
 msgid "East"
@@ -3075,9 +3148,6 @@ msgstr "Edit title"
 
 msgid "Edit update source url"
 msgstr "Edit update source url"
-
-msgid "Education/Science/..."
-msgstr "Education/Science/..."
 
 msgid "Egypt"
 msgstr ""
@@ -3148,6 +3218,10 @@ msgstr ""
 msgid "Enable auto fastscan for %s"
 msgstr ""
 
+#, fuzzy
+msgid "Enable bluetooth audio"
+msgstr "Enable bouquet edit"
+
 msgid "Enable bouquet edit"
 msgstr "Enable bouquet edit"
 
@@ -3178,6 +3252,10 @@ msgstr "Enable EIT EPG"
 
 msgid "Enable parental protection"
 msgstr ""
+
+#, fuzzy
+msgid "Enable power off timer"
+msgstr "Enable move mode"
 
 msgid "Enable remote enigma2 receiver to be tried to tune into services that cannot be tuned into locally (e.g. tuner is occupied or service type is unavailable on the local tuner. Specify complete URL including http:// and port number (normally ...:8001), e.g. http://second_box:8001."
 msgstr ""
@@ -3324,10 +3402,6 @@ msgid "Eritrea"
 msgstr "Stream"
 
 msgid "Error"
-msgstr "Error"
-
-#, fuzzy, python-format
-msgid "Error %s"
 msgstr "Error"
 
 msgid "Error code"
@@ -3568,6 +3642,14 @@ msgid ""
 "inactive"
 msgstr ""
 
+#, fuzzy
+msgid "FCC enabled"
+msgstr "enabled"
+
+#, fuzzy
+msgid "FCCSetup"
+msgstr "Setup"
+
 msgid "FEC"
 msgstr "FEC"
 
@@ -3658,6 +3740,15 @@ msgstr ""
 
 msgid "Fast"
 msgstr "Fast"
+
+msgid "Fast Channel Change"
+msgstr ""
+
+msgid "Fast Channel Change Setup"
+msgstr ""
+
+msgid "Fast Channel Change setup"
+msgstr ""
 
 msgid "Fast DiSEqC"
 msgstr "Fast DiSEqC"
@@ -3753,7 +3844,13 @@ msgstr "Following tasks will be done after you press OK!"
 msgid "Force legacy signal stats"
 msgstr ""
 
+msgid "Force power off (even when not in standby)"
+msgstr ""
+
 msgid "Force zap to recording service in standby"
+msgstr ""
+
+msgid "Forces deep standby, even when not in standby mode. Scheduled recordings remain unaffected."
 msgstr ""
 
 msgid "Format"
@@ -3830,6 +3927,10 @@ msgstr "Full transparency"
 msgid "Full view resolution"
 msgstr ""
 
+#, fuzzy
+msgid "Fullbackup Images"
+msgstr "Flash"
+
 msgid "Function of OK button"
 msgstr "Function of OK button"
 
@@ -3873,6 +3974,10 @@ msgstr "General AC3 delay"
 
 msgid "General PCM delay"
 msgstr "General PCM delay"
+
+#, fuzzy
+msgid "General bluetooth audio delay"
+msgstr "General AC3 delay"
 
 msgid "Genre"
 msgstr "Genre"
@@ -4035,7 +4140,10 @@ msgstr "HD list"
 msgid "HD2400"
 msgstr ""
 
-msgid "HD60/Multibox/Multibox SE"
+msgid "HD60/HD66SE/Multibox/Multibox SE"
+msgstr ""
+
+msgid "HDMI"
 msgstr ""
 
 msgid "HDMI Colordepth"
@@ -4102,6 +4210,10 @@ msgstr "Harddisk"
 msgid "Harddisk Setup"
 msgstr ""
 
+#, fuzzy
+msgid "Hardware Accelerated"
+msgstr "Hardware: "
+
 msgid "Hardware: "
 msgstr "Hardware: "
 
@@ -4146,6 +4258,10 @@ msgstr "Hierarchy info"
 
 msgid "High bitrate support"
 msgstr "High bitrate support"
+
+#, fuzzy
+msgid "History Prev/Next"
+msgstr "Factory reset"
 
 msgid "History back"
 msgstr ""
@@ -4201,6 +4317,9 @@ msgstr "How many minutes do you want to record?"
 
 msgid "How many minutes do you want to record?"
 msgstr "How many minutes do you want to record?"
+
+msgid "Http(s) stream start delay"
+msgstr ""
 
 msgid "Hue"
 msgstr "Hue"
@@ -4275,6 +4394,9 @@ msgid "If set to 'yes' signal values (SNR, etc) will be calculated from API V3. 
 msgstr ""
 
 msgid "If set to 'yes' the same commands will be sent to the TV for deep standby events, as are sent during regular standby events."
+msgstr ""
+
+msgid "If the box is supposed to enter deep standby e.g. monday night at 1 AM, it actually is already tuesday. To enable this anyway, differing next day start time can be specified here."
 msgstr ""
 
 msgid "If using multiple uncommitted switches the DiSEqC commands must be sent multiple times. Set to the number of uncommitted switches in the chain minus one."
@@ -4721,9 +4843,6 @@ msgstr "Left"
 msgid "Left from servicename"
 msgstr "Left from servicename"
 
-msgid "Leisure hobbies"
-msgstr "Leisure hobbies"
-
 msgid "Lesotho"
 msgstr ""
 
@@ -4988,6 +5107,10 @@ msgstr "Lithuanian"
 msgid "Mauritius"
 msgstr "Favourites"
 
+#, fuzzy
+msgid "Max channels"
+msgstr "Channel"
+
 msgid "Max memory positions"
 msgstr ""
 
@@ -5002,13 +5125,6 @@ msgstr ""
 
 msgid "Media player"
 msgstr "Media player"
-
-#, fuzzy
-msgid "Media player: GStreamer, version "
-msgstr "Kernel version: "
-
-msgid "Media player: ffmpeg, version "
-msgstr ""
 
 msgid "Media scanner"
 msgstr "Media scanner"
@@ -5211,9 +5327,6 @@ msgstr "Movie location"
 msgid "Movie selection"
 msgstr "Movie selection"
 
-msgid "Movie/Drama"
-msgstr "Movie/Drama"
-
 msgid "Movielist menu"
 msgstr "Movielist menu"
 
@@ -5393,7 +5506,8 @@ msgstr ""
 msgid "New Zealand"
 msgstr ""
 
-msgid "News Current Affairs"
+#, fuzzy
+msgid "News/Current Affairs/Social"
 msgstr "News Current Affairs"
 
 msgctxt "button label, 'next screen'"
@@ -5403,6 +5517,9 @@ msgstr "Next"
 msgctxt "now/next: 'next' event label"
 msgid "Next"
 msgstr "Next"
+
+msgid "Next day starts at"
+msgstr ""
 
 msgid "Nicaragua"
 msgstr ""
@@ -5726,6 +5843,10 @@ msgstr ""
 msgid "Only on startup"
 msgstr ""
 
+#, fuzzy
+msgid "Only power off"
+msgstr "Enable move mode"
+
 msgid "Only select 'yes' if you are using a multiswich that requires a DiSEqC Port-A command signal. For all other setups select 'no'."
 msgstr ""
 
@@ -5750,7 +5871,7 @@ msgstr ""
 msgid "Operating LED status in standby mode"
 msgstr ""
 
-msgid "Operating LED status while running."
+msgid "Operating LED status while running"
 msgstr ""
 
 msgid "Opkg"
@@ -5878,6 +5999,9 @@ msgstr "Parental control services editor"
 
 msgid "Parental control setup"
 msgstr "Parental control setup"
+
+msgid "Passthrough"
+msgstr ""
 
 msgid "Password"
 msgstr ""
@@ -6299,6 +6423,13 @@ msgstr ""
 msgid "Power management. Consult your receiver's manual for more information."
 msgstr ""
 
+#, fuzzy
+msgid "Power off time"
+msgstr "Sort time"
+
+msgid "Power off timer"
+msgstr ""
+
 msgid "Power on display"
 msgstr ""
 
@@ -6635,6 +6766,9 @@ msgid "Rec"
 msgstr "Rec"
 
 msgid "Recall to previous service"
+msgstr ""
+
+msgid "Receiver or driver does not support FCC"
 msgstr ""
 
 msgid "Reception settings"
@@ -7060,6 +7194,9 @@ msgstr "SNR"
 
 msgid "SNR:"
 msgstr "SNR:"
+
+msgid "SPDIF"
+msgstr ""
 
 msgid "SRT file"
 msgstr ""
@@ -7761,6 +7898,9 @@ msgstr "Service scan"
 msgid "Service title mode"
 msgstr "Service title mode"
 
+msgid "Service type 4097 incorrect for PiP!"
+msgstr ""
+
 msgid ""
 "Service unavailable!\n"
 "Check tuner configuration!"
@@ -7795,6 +7935,10 @@ msgstr "Set as startup service"
 
 msgid "Set blocktimes by weekday"
 msgstr ""
+
+#, fuzzy
+msgid "Set cursor on service from channel history"
+msgstr "Switch to previous channel in history"
 
 msgid "Set default"
 msgstr ""
@@ -7921,9 +8065,6 @@ msgstr "Show EPG for current channel..."
 
 msgid "Show EPG..."
 msgstr "Show EPG..."
-
-msgid "Show Games show"
-msgstr "Show Games show"
 
 msgid "Show InfoBar"
 msgstr ""
@@ -8157,6 +8298,10 @@ msgstr ""
 msgid "Show warning when timeshift is stopped"
 msgstr "Show warning when timeshift is stopped"
 
+#, fuzzy
+msgid "Show/Game Show/Leisure hobbies"
+msgstr "Leisure hobbies"
+
 msgid "Show/hide window"
 msgstr ""
 
@@ -8322,9 +8467,6 @@ msgstr ""
 
 msgid "Smooth"
 msgstr ""
-
-msgid "Social/Political/Economics"
-msgstr "Social/Political/Economics"
 
 msgid "SocketMMI"
 msgstr ""
@@ -8836,7 +8978,7 @@ msgid "Switch on the display during Suspend Mode"
 msgstr "View list of available display and userinterface extensions."
 
 #, fuzzy
-msgid "Switch on the display during operation."
+msgid "Switch on the display during operation"
 msgstr "View list of available display and userinterface extensions."
 
 #, fuzzy
@@ -9284,11 +9426,18 @@ msgstr ""
 msgid "This option allows you to show the full screen path leading to the current screen."
 msgstr ""
 
+msgid "This option allows you to switch audio to bluetooth speakers."
+msgstr ""
+
 msgid "This option allows you to view the old and new settings side by side."
 msgstr ""
 
 msgid "This option can be useful for long HDMI cables."
 msgstr ""
+
+#, fuzzy
+msgid "This option configures the general audio delay for bluetooth speakers."
+msgstr "Configure the general audio delay of stereo sound tracks."
 
 msgid "This option set the level of surpression of mosquito noise (Mosquito Noise is random aliasing as a result of strong compression). Obviously this goes at the cost of picture details."
 msgstr ""
@@ -10245,6 +10394,9 @@ msgstr "W"
 msgid "WLAN connection"
 msgstr "WLAN connection"
 
+msgid "WMA Pro downmix"
+msgstr ""
+
 msgid "WSS on 4:3"
 msgstr "WSS on 4:3"
 
@@ -10544,7 +10696,8 @@ msgstr "When enabled, teletext subtitles will be displayed at their original pos
 msgid "When enabled, the VCR scart option will be shown on the main menu"
 msgstr ""
 
-msgid "When enabled, the channel selection list will be hidden while listening to a radio channel"
+#, fuzzy
+msgid "When enabled, the channel selection list will be hidden while listening to a radio channel. When disabled, the option 'Auto play last service in radio mode' is available."
 msgstr "When enabled, the channel selection list will be hidden while listening to a radio channel"
 
 msgid "When enabled, the infobar will be displayed when a new event starts."
@@ -10572,6 +10725,9 @@ msgid "When enabled, the receiver will select an AC3 track (when available)."
 msgstr "When enabled, the receiver will select an AC3 track (when available)."
 
 msgid "When enabled, the receiver will select an AC3+ track (when available)."
+msgstr ""
+
+msgid "When enabled, then when changing bouquets, set the cursor on the service from the channel history in the channel selection list."
 msgstr ""
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
@@ -10917,6 +11073,9 @@ msgstr ""
 msgid "Zap"
 msgstr "Zap"
 
+msgid "Zap Up/Down"
+msgstr ""
+
 msgid "Zap back to previously tuned service?"
 msgstr "Zap back to previously tuned service?"
 
@@ -10965,7 +11124,7 @@ msgstr "Go to first service"
 msgid "Zgemma H.S/H.2S/H.2H/H5/H7(old model)"
 msgstr ""
 
-msgid "Zgemma H9(old model)/I55Plus"
+msgid "Zgemma H9(old model)/I55Plus/H8"
 msgstr ""
 
 msgid "Zgemma Star S/2S/H1/H2"
@@ -11015,7 +11174,8 @@ msgstr ""
 msgid "additional cable of rotor"
 msgstr ""
 
-msgid "adult movie/drama"
+#, fuzzy
+msgid "adult movie"
 msgstr "adult movie/drama"
 
 msgid "advanced"
@@ -11106,9 +11266,6 @@ msgstr "better"
 msgid "black"
 msgstr "black"
 
-msgid "black & white"
-msgstr "black & white"
-
 msgid "blacklist"
 msgstr "blacklist"
 
@@ -11139,7 +11296,8 @@ msgstr ""
 msgid "chapters"
 msgstr "chapters"
 
-msgid "childrens's/youth program (general)"
+#, fuzzy
+msgid "childrens's youth program (general)"
 msgstr "childrens's/youth program (general)"
 
 msgid "circular left"
@@ -11154,9 +11312,6 @@ msgstr ""
 msgid "comedy"
 msgstr "comedy"
 
-msgid "config menu"
-msgstr "config menu"
-
 msgid "confirmed"
 msgstr "confirmed"
 
@@ -11164,6 +11319,15 @@ msgid "connected"
 msgstr "connected"
 
 msgid "controlled by HDMI"
+msgstr ""
+
+msgid "convert to AC3"
+msgstr ""
+
+msgid "convert to DTS"
+msgstr ""
+
+msgid "convert to multi-channel PCM"
 msgstr ""
 
 msgid "cooking"
@@ -11220,7 +11384,8 @@ msgstr "east"
 msgid "economics/social advisory"
 msgstr "economics/social advisory"
 
-msgid "education/science/factual topics (general)"
+#, fuzzy
+msgid "educational/science/factual topics (general)"
 msgstr "education/science/factual topics (general)"
 
 msgid "embedded"
@@ -11310,7 +11475,8 @@ msgstr "film/cinema"
 msgid "fine arts"
 msgstr "fine arts"
 
-msgid "fitness & health"
+#, fuzzy
+msgid "fitness and health"
 msgstr "fitness & health"
 
 msgid "flat alphabetic"
@@ -11350,9 +11516,6 @@ msgstr "further education"
 
 msgid "game show/quiz/contest"
 msgstr "game show/quiz/contest"
-
-msgid "gardening"
-msgstr "gardening"
 
 msgid "go to deep standby"
 msgstr "go to deep standby"
@@ -11460,8 +11623,9 @@ msgstr ""
 msgid "literature"
 msgstr "literature"
 
-msgid "live broadcast"
-msgstr "live broadcast"
+#, fuzzy
+msgid "local sports"
+msgstr "team sports"
 
 msgid "locked"
 msgstr "locked"
@@ -11487,6 +11651,10 @@ msgstr "menu"
 msgid "mins"
 msgstr "mins"
 
+#, fuzzy
+msgid "module disabled"
+msgstr "disabled"
+
 msgid "month"
 msgstr "month"
 
@@ -11508,7 +11676,8 @@ msgstr "move up to first entry"
 msgid "move up to previous entry"
 msgstr "move up to previous entry"
 
-msgid "movie/drama (general)"
+#, fuzzy
+msgid "movie (general)"
 msgstr "movie/drama (general)"
 
 msgid "multi"
@@ -11642,9 +11811,6 @@ msgstr "open nameserver configuration"
 msgid "original"
 msgstr "original"
 
-msgid "original language"
-msgstr "original language"
-
 msgid "pass"
 msgstr "pass"
 
@@ -11665,6 +11831,13 @@ msgstr "popular culture/traditional arts"
 
 msgid "pre-school children's program"
 msgstr "pre-school children's program"
+
+msgid "preserve bookmarks in cuts"
+msgstr ""
+
+#, fuzzy
+msgid "priority"
+msgstr "Priority"
 
 msgid "receiver software because updates are available."
 msgstr "receiver software because updates are available."
@@ -11689,6 +11862,10 @@ msgstr "remove after this position"
 
 msgid "remove before this position"
 msgstr "remove before this position"
+
+#, fuzzy
+msgid "remove bookmarks in cuts"
+msgstr "Remove bookmark"
 
 msgid "remove this mark"
 msgstr "remove this mark"
@@ -11744,7 +11921,8 @@ msgstr "select menu entry"
 msgid "serious music/classic music"
 msgstr "serious music/classic music"
 
-msgid "serious/classical/religious/historical movie/drama"
+#, fuzzy
+msgid "serious/classical/religious/historical drama"
 msgstr "serious/classical/religious/historical movie/drama"
 
 msgid "service off-air"
@@ -11823,13 +12001,15 @@ msgstr ""
 msgid "slot%s - %s, without backup"
 msgstr ""
 
-msgid "soap/melodram/folkloric"
+#, fuzzy
+msgid "soap/melodrama/folkloric"
 msgstr "soap/melodram/folkloric"
 
 msgid "social/political issues/economics (general)"
 msgstr "social/political issues/economics (general)"
 
-msgid "social/spiritual science"
+#, fuzzy
+msgid "social/spiritual sciences"
 msgstr "social/spiritual science"
 
 msgid "space"
@@ -11882,10 +12062,11 @@ msgstr "switch to the next subtitle language"
 msgid "talk show"
 msgstr "talk show"
 
-msgid "team sports"
-msgstr "team sports"
+msgid "team sports/excluding football"
+msgstr ""
 
-msgid "technology/natural science"
+#, fuzzy
+msgid "technology/natural sciences"
 msgstr "technology/natural science"
 
 msgid "template file"
@@ -11934,14 +12115,17 @@ msgstr ""
 msgid "unknown service"
 msgstr "unknown service"
 
-msgid "unpublished"
-msgstr "unpublished"
-
 msgid "untestable"
 msgstr ""
 
 msgid "until standby/restart"
 msgstr "until standby/restart"
+
+msgid "use HDMI cacenter"
+msgstr ""
+
+msgid "use best / controlled by HDMI"
+msgstr ""
 
 msgid "user defined"
 msgstr "user defined"
@@ -11952,6 +12136,9 @@ msgstr "user defined"
 
 msgid "variety show"
 msgstr "variety show"
+
+msgid "version"
+msgstr "version"
 
 msgid "vertical"
 msgstr "vertical"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-22 15:03+0100\n"
+"POT-Creation-Date: 2022-07-30 14:55+0200\n"
 "PO-Revision-Date: 2010-03-09 21:03+0100\n"
 "Last-Translator: \n"
 "Language-Team: HDTV ROMANIA(superonic,costel_mbc,neutrin,otheitis,cipy_1982,neutrin,runcanion)\n"
@@ -587,7 +587,19 @@ msgstr "Setarile A/V"
 msgid "AAC downmix"
 msgstr ""
 
+msgid "AAC transcoding"
+msgstr ""
+
+msgid "AAC+ downmix"
+msgstr ""
+
+msgid "AC3"
+msgstr ""
+
 msgid "AC3 downmix"
+msgstr ""
+
+msgid "AC3 transcoding"
 msgstr ""
 
 msgid "ACQUIRING TSID/ONID"
@@ -1030,7 +1042,7 @@ msgstr ""
 msgid "Artist"
 msgstr "Artist"
 
-msgid "Arts/Culture"
+msgid "Arts/Culture (without music)"
 msgstr ""
 
 msgid "Aruba"
@@ -1193,6 +1205,9 @@ msgstr "Scanare automata"
 msgid "Automatic scan"
 msgstr "Scanare automata"
 
+msgid "Automatically power off box to deep standby mode."
+msgstr ""
+
 msgid "Automatically put the TV in standby whenever the receiver goes into standby or deep standby."
 msgstr ""
 
@@ -1208,6 +1223,9 @@ msgstr "Disponibile formate viariaza"
 #, fuzzy
 msgid "Available locales are:"
 msgstr "Disponibile formate viariaza"
+
+msgid "Axas E4HD Ultra"
+msgstr ""
 
 msgid "Azerbaijan"
 msgstr ""
@@ -1460,6 +1478,10 @@ msgstr ""
 msgid "CI assignment"
 msgstr "Asignarea CI"
 
+#, fuzzy
+msgid "CI enabled"
+msgstr "activat"
+
 msgid "CI slot: "
 msgstr ""
 
@@ -1470,6 +1492,10 @@ msgid "Cable"
 msgstr "Cablu"
 
 msgid "Cable Scan"
+msgstr ""
+
+#, python-format
+msgid "Cable scan executable utility not found '%s'!"
 msgstr ""
 
 msgid "Cabo Verde"
@@ -1700,7 +1726,7 @@ msgid ""
 "DiSEqC port %s for %s"
 msgstr ""
 
-msgid "Children/Youth"
+msgid "Children/Youth/Education/Science"
 msgstr ""
 
 msgid "Chile"
@@ -1719,6 +1745,21 @@ msgid "Choose Tuner"
 msgstr ""
 
 msgid "Choose bouquet"
+msgstr ""
+
+msgid "Choose whether AAC sound tracks should be transcoded."
+msgstr ""
+
+msgid "Choose whether AC3 sound tracks should be transcoded."
+msgstr ""
+
+msgid "Choose whether WMA Pro sound tracks should be downmixed."
+msgstr ""
+
+msgid "Choose whether multi channel DTS-HD(HR/MA) sound tracks should be downmixed or transcoded."
+msgstr ""
+
+msgid "Choose whether multi channel aac+ sound tracks should be downmixed to stereo."
 msgstr ""
 
 msgid "Choose whether to scan a single transponder, one satellite or multiple satellites."
@@ -2443,6 +2484,9 @@ msgstr "Ceha"
 msgid "D"
 msgstr "D"
 
+msgid "DAC"
+msgstr ""
+
 msgid "DHCP"
 msgstr "DHCP"
 
@@ -2453,7 +2497,13 @@ msgstr "avansat"
 msgid "DMM normal"
 msgstr ""
 
+msgid "DTS"
+msgstr ""
+
 msgid "DTS downmix"
+msgstr ""
+
+msgid "DTS-HD(HR/MA) downmix"
 msgstr ""
 
 msgid "DUAL LAYER DVD"
@@ -2545,6 +2595,9 @@ msgstr "Tip Timer"
 #, fuzzy
 msgid "Default+Picon"
 msgstr "Setari implicite"
+
+msgid "Define additional delay in milliseconds before start of http(s) streams, e.g. to connect a remote tuner, you use a complex system of DiSEqC."
+msgstr ""
 
 msgid "Define the location of the EPG Cache file."
 msgstr ""
@@ -2769,6 +2822,9 @@ msgstr "Directorul %s nu exista."
 
 msgid "Disable"
 msgstr "Dezactivare"
+
+msgid "Disable FCC during recordings"
+msgstr ""
 
 msgid "Disable Picture in Picture"
 msgstr "Dezactiveaza PiP (Imagine in Imagine)"
@@ -3023,6 +3079,10 @@ msgstr "Noi Pluginuri disponibile la descarcare"
 msgid "Downloadable plugins"
 msgstr "Pluginuri disponibile pentru descarcare"
 
+#, fuzzy
+msgid "Downloaded Images"
+msgstr "Se descarca"
+
 msgid "Downloading"
 msgstr "Se descarca"
 
@@ -3035,6 +3095,12 @@ msgstr "Descarcare a unei noi liste de pachete. Va rugam asteptati..."
 
 msgid "Downloading plugin information. Please wait..."
 msgstr "Se descarca informatiile Pluginului. Va rog sa asteptati..."
+
+msgid "Downmix"
+msgstr ""
+
+msgid "Drama and Films"
+msgstr ""
 
 #, fuzzy
 msgid "Drop unconfigured satellites"
@@ -3079,7 +3145,7 @@ msgid "ERROR - failed to scan (%s)!"
 msgstr "EROARE - scanare esuata (%s)!"
 
 #, python-format
-msgid "ERROR downloading file %s"
+msgid "ERROR downloading file %s/%s"
 msgstr ""
 
 msgid "East"
@@ -3131,9 +3197,6 @@ msgid "Edit title"
 msgstr "Editare titlu"
 
 msgid "Edit update source url"
-msgstr ""
-
-msgid "Education/Science/..."
 msgstr ""
 
 msgid "Egypt"
@@ -3203,6 +3266,10 @@ msgstr ""
 msgid "Enable auto fastscan for %s"
 msgstr ""
 
+#, fuzzy
+msgid "Enable bluetooth audio"
+msgstr "Activeaza editare bouquet"
+
 msgid "Enable bouquet edit"
 msgstr "Activeaza editare bouquet"
 
@@ -3233,6 +3300,10 @@ msgstr ""
 
 msgid "Enable parental protection"
 msgstr ""
+
+#, fuzzy
+msgid "Enable power off timer"
+msgstr "Activeaza mod mutare"
 
 msgid "Enable remote enigma2 receiver to be tried to tune into services that cannot be tuned into locally (e.g. tuner is occupied or service type is unavailable on the local tuner. Specify complete URL including http:// and port number (normally ...:8001), e.g. http://second_box:8001."
 msgstr ""
@@ -3379,10 +3450,6 @@ msgid "Eritrea"
 msgstr ""
 
 msgid "Error"
-msgstr "Eroare"
-
-#, fuzzy, python-format
-msgid "Error %s"
 msgstr "Eroare"
 
 msgid "Error code"
@@ -3632,6 +3699,14 @@ msgid ""
 "inactive"
 msgstr ""
 
+#, fuzzy
+msgid "FCC enabled"
+msgstr "activat"
+
+#, fuzzy
+msgid "FCCSetup"
+msgstr "Configurare"
+
 msgid "FEC"
 msgstr "FEC"
 
@@ -3721,6 +3796,15 @@ msgstr ""
 
 msgid "Fast"
 msgstr "Rapid"
+
+msgid "Fast Channel Change"
+msgstr ""
+
+msgid "Fast Channel Change Setup"
+msgstr ""
+
+msgid "Fast Channel Change setup"
+msgstr ""
 
 msgid "Fast DiSEqC"
 msgstr "DiSEqC rapid"
@@ -3818,7 +3902,13 @@ msgstr ""
 msgid "Force legacy signal stats"
 msgstr ""
 
+msgid "Force power off (even when not in standby)"
+msgstr ""
+
 msgid "Force zap to recording service in standby"
+msgstr ""
+
+msgid "Forces deep standby, even when not in standby mode. Scheduled recordings remain unaffected."
 msgstr ""
 
 msgid "Format"
@@ -3894,6 +3984,10 @@ msgstr ""
 msgid "Full view resolution"
 msgstr ""
 
+#, fuzzy
+msgid "Fullbackup Images"
+msgstr "Flash"
+
 msgid "Function of OK button"
 msgstr ""
 
@@ -3939,6 +4033,10 @@ msgstr "Intarziere AC3 generala"
 #, fuzzy
 msgid "General PCM delay"
 msgstr "Intarziere PCM generala"
+
+#, fuzzy
+msgid "General bluetooth audio delay"
+msgstr "Intarziere AC3 generala"
 
 msgid "Genre"
 msgstr "Gen"
@@ -4107,7 +4205,10 @@ msgstr ""
 msgid "HD2400"
 msgstr ""
 
-msgid "HD60/Multibox/Multibox SE"
+msgid "HD60/HD66SE/Multibox/Multibox SE"
+msgstr ""
+
+msgid "HDMI"
 msgstr ""
 
 msgid "HDMI Colordepth"
@@ -4175,6 +4276,9 @@ msgstr "Hard disc"
 msgid "Harddisk Setup"
 msgstr ""
 
+msgid "Hardware Accelerated"
+msgstr ""
+
 msgid "Hardware: "
 msgstr ""
 
@@ -4220,6 +4324,10 @@ msgstr ""
 
 msgid "High bitrate support"
 msgstr "Sprijin pentru bitrate rapid"
+
+#, fuzzy
+msgid "History Prev/Next"
+msgstr "Restaurare setari de fabrica"
 
 msgid "History back"
 msgstr ""
@@ -4275,6 +4383,9 @@ msgstr "Pentru cate minute doriti sa inregistrati?"
 
 msgid "How many minutes do you want to record?"
 msgstr "Pentru cate minute doriti sa inregistrati?"
+
+msgid "Http(s) stream start delay"
+msgstr ""
 
 msgid "Hue"
 msgstr ""
@@ -4349,6 +4460,9 @@ msgid "If set to 'yes' signal values (SNR, etc) will be calculated from API V3. 
 msgstr ""
 
 msgid "If set to 'yes' the same commands will be sent to the TV for deep standby events, as are sent during regular standby events."
+msgstr ""
+
+msgid "If the box is supposed to enter deep standby e.g. monday night at 1 AM, it actually is already tuesday. To enable this anyway, differing next day start time can be specified here."
 msgstr ""
 
 msgid "If using multiple uncommitted switches the DiSEqC commands must be sent multiple times. Set to the number of uncommitted switches in the chain minus one."
@@ -4812,9 +4926,6 @@ msgstr "Stanga"
 msgid "Left from servicename"
 msgstr ""
 
-msgid "Leisure hobbies"
-msgstr ""
-
 msgid "Lesotho"
 msgstr ""
 
@@ -5089,6 +5200,10 @@ msgstr "Lituaniana"
 msgid "Mauritius"
 msgstr "Favorite"
 
+#, fuzzy
+msgid "Max channels"
+msgstr "Canal"
+
 msgid "Max memory positions"
 msgstr ""
 
@@ -5103,13 +5218,6 @@ msgstr ""
 
 msgid "Media player"
 msgstr "Media player"
-
-#, fuzzy
-msgid "Media player: GStreamer, version "
-msgstr "Versiune noua:"
-
-msgid "Media player: ffmpeg, version "
-msgstr ""
 
 #, fuzzy
 msgid "Media scanner"
@@ -5317,9 +5425,6 @@ msgstr ""
 msgid "Movie selection"
 msgstr "Selectare timer"
 
-msgid "Movie/Drama"
-msgstr ""
-
 msgid "Movielist menu"
 msgstr "Meniu lista filme"
 
@@ -5503,7 +5608,7 @@ msgstr ""
 msgid "New Zealand"
 msgstr ""
 
-msgid "News Current Affairs"
+msgid "News/Current Affairs/Social"
 msgstr ""
 
 msgctxt "button label, 'next screen'"
@@ -5512,6 +5617,9 @@ msgstr ""
 
 msgctxt "now/next: 'next' event label"
 msgid "Next"
+msgstr ""
+
+msgid "Next day starts at"
 msgstr ""
 
 msgid "Nicaragua"
@@ -5842,6 +5950,10 @@ msgstr ""
 msgid "Only on startup"
 msgstr ""
 
+#, fuzzy
+msgid "Only power off"
+msgstr "Activeaza mod mutare"
+
 msgid "Only select 'yes' if you are using a multiswich that requires a DiSEqC Port-A command signal. For all other setups select 'no'."
 msgstr ""
 
@@ -5868,7 +5980,7 @@ msgstr ""
 msgid "Operating LED status in standby mode"
 msgstr ""
 
-msgid "Operating LED status while running."
+msgid "Operating LED status while running"
 msgstr ""
 
 msgid "Opkg"
@@ -6000,6 +6112,9 @@ msgstr "Editor servicii control parental"
 
 msgid "Parental control setup"
 msgstr "Configurare control parental"
+
+msgid "Passthrough"
+msgstr ""
 
 msgid "Password"
 msgstr ""
@@ -6425,6 +6540,13 @@ msgstr ""
 msgid "Power management. Consult your receiver's manual for more information."
 msgstr ""
 
+#, fuzzy
+msgid "Power off time"
+msgstr "Timpul de sortare"
+
+msgid "Power off timer"
+msgstr ""
+
 msgid "Power on display"
 msgstr ""
 
@@ -6763,6 +6885,9 @@ msgid "Rec"
 msgstr ""
 
 msgid "Recall to previous service"
+msgstr ""
+
+msgid "Receiver or driver does not support FCC"
 msgstr ""
 
 #, fuzzy
@@ -7192,6 +7317,9 @@ msgstr "SNR"
 
 msgid "SNR:"
 msgstr "SNR:"
+
+msgid "SPDIF"
+msgstr ""
 
 msgid "SRT file"
 msgstr ""
@@ -7916,6 +8044,9 @@ msgstr "Scanare serviciu"
 msgid "Service title mode"
 msgstr "Selectati modul vieo"
 
+msgid "Service type 4097 incorrect for PiP!"
+msgstr ""
+
 msgid ""
 "Service unavailable!\n"
 "Check tuner configuration!"
@@ -7950,6 +8081,10 @@ msgstr ""
 
 msgid "Set blocktimes by weekday"
 msgstr ""
+
+#, fuzzy
+msgid "Set cursor on service from channel history"
+msgstr "canalul anterior din istoric"
 
 msgid "Set default"
 msgstr ""
@@ -8082,9 +8217,6 @@ msgstr "Arata bara de informatii la schimbarea evenimentelor"
 #, fuzzy
 msgid "Show EPG..."
 msgstr "arata EPG..."
-
-msgid "Show Games show"
-msgstr ""
 
 msgid "Show InfoBar"
 msgstr ""
@@ -8324,6 +8456,9 @@ msgstr ""
 msgid "Show warning when timeshift is stopped"
 msgstr ""
 
+msgid "Show/Game Show/Leisure hobbies"
+msgstr ""
+
 msgid "Show/hide window"
 msgstr ""
 
@@ -8494,9 +8629,6 @@ msgid "Smartcard PIN"
 msgstr ""
 
 msgid "Smooth"
-msgstr ""
-
-msgid "Social/Political/Economics"
 msgstr ""
 
 msgid "SocketMMI"
@@ -9025,7 +9157,7 @@ msgid "Switch on the display during Suspend Mode"
 msgstr "Vezi lista cu Display disponibile si extemsiile Interfata user"
 
 #, fuzzy
-msgid "Switch on the display during operation."
+msgid "Switch on the display during operation"
 msgstr "Vezi lista cu Display disponibile si extemsiile Interfata user"
 
 #, fuzzy
@@ -9471,10 +9603,16 @@ msgstr ""
 msgid "This option allows you to show the full screen path leading to the current screen."
 msgstr ""
 
+msgid "This option allows you to switch audio to bluetooth speakers."
+msgstr ""
+
 msgid "This option allows you to view the old and new settings side by side."
 msgstr ""
 
 msgid "This option can be useful for long HDMI cables."
+msgstr ""
+
+msgid "This option configures the general audio delay for bluetooth speakers."
 msgstr ""
 
 msgid "This option set the level of surpression of mosquito noise (Mosquito Noise is random aliasing as a result of strong compression). Obviously this goes at the cost of picture details."
@@ -10455,6 +10593,9 @@ msgstr "W"
 msgid "WLAN connection"
 msgstr ""
 
+msgid "WMA Pro downmix"
+msgstr ""
+
 msgid "WSS on 4:3"
 msgstr "WSS on 4:3"
 
@@ -10742,7 +10883,7 @@ msgstr ""
 msgid "When enabled, the VCR scart option will be shown on the main menu"
 msgstr ""
 
-msgid "When enabled, the channel selection list will be hidden while listening to a radio channel"
+msgid "When enabled, the channel selection list will be hidden while listening to a radio channel. When disabled, the option 'Auto play last service in radio mode' is available."
 msgstr ""
 
 msgid "When enabled, the infobar will be displayed when a new event starts."
@@ -10770,6 +10911,9 @@ msgid "When enabled, the receiver will select an AC3 track (when available)."
 msgstr ""
 
 msgid "When enabled, the receiver will select an AC3+ track (when available)."
+msgstr ""
+
+msgid "When enabled, then when changing bouquets, set the cursor on the service from the channel history in the channel selection list."
 msgstr ""
 
 msgid "When enabled, this setting has more weight than 'Preferred tuner for recordings'."
@@ -11093,6 +11237,9 @@ msgstr ""
 msgid "Zap"
 msgstr ""
 
+msgid "Zap Up/Down"
+msgstr ""
+
 msgid "Zap back to previously tuned service?"
 msgstr ""
 
@@ -11140,7 +11287,7 @@ msgstr "muta sus la prima intrare"
 msgid "Zgemma H.S/H.2S/H.2H/H5/H7(old model)"
 msgstr ""
 
-msgid "Zgemma H9(old model)/I55Plus"
+msgid "Zgemma H9(old model)/I55Plus/H8"
 msgstr ""
 
 msgid "Zgemma Star S/2S/H1/H2"
@@ -11188,8 +11335,9 @@ msgstr ""
 msgid "additional cable of rotor"
 msgstr ""
 
-msgid "adult movie/drama"
-msgstr ""
+#, fuzzy
+msgid "adult movie"
+msgstr "Alegeti un film"
 
 msgid "advanced"
 msgstr "avansat"
@@ -11281,9 +11429,6 @@ msgstr "mai bine"
 msgid "black"
 msgstr "negru"
 
-msgid "black & white"
-msgstr ""
-
 msgid "blacklist"
 msgstr "lista neagra"
 
@@ -11315,7 +11460,7 @@ msgstr ""
 msgid "chapters"
 msgstr "capitole"
 
-msgid "childrens's/youth program (general)"
+msgid "childrens's youth program (general)"
 msgstr ""
 
 msgid "circular left"
@@ -11330,9 +11475,6 @@ msgstr ""
 msgid "comedy"
 msgstr ""
 
-msgid "config menu"
-msgstr "meniu configurari"
-
 msgid "confirmed"
 msgstr "confirmat"
 
@@ -11340,6 +11482,15 @@ msgid "connected"
 msgstr "conectat"
 
 msgid "controlled by HDMI"
+msgstr ""
+
+msgid "convert to AC3"
+msgstr ""
+
+msgid "convert to DTS"
+msgstr ""
+
+msgid "convert to multi-channel PCM"
 msgstr ""
 
 msgid "cooking"
@@ -11396,7 +11547,7 @@ msgstr ""
 msgid "economics/social advisory"
 msgstr ""
 
-msgid "education/science/factual topics (general)"
+msgid "educational/science/factual topics (general)"
 msgstr ""
 
 msgid "embedded"
@@ -11486,7 +11637,7 @@ msgstr ""
 msgid "fine arts"
 msgstr ""
 
-msgid "fitness & health"
+msgid "fitness and health"
 msgstr ""
 
 #, fuzzy
@@ -11527,9 +11678,6 @@ msgid "further education"
 msgstr ""
 
 msgid "game show/quiz/contest"
-msgstr ""
-
-msgid "gardening"
 msgstr ""
 
 msgid "go to deep standby"
@@ -11637,7 +11785,7 @@ msgstr ""
 msgid "literature"
 msgstr ""
 
-msgid "live broadcast"
+msgid "local sports"
 msgstr ""
 
 msgid "locked"
@@ -11664,6 +11812,10 @@ msgstr "meniu"
 msgid "mins"
 msgstr "min"
 
+#, fuzzy
+msgid "module disabled"
+msgstr "dezactivat"
+
 msgid "month"
 msgstr "luna"
 
@@ -11685,7 +11837,7 @@ msgstr "muta sus la prima intrare"
 msgid "move up to previous entry"
 msgstr "muta sus la anterioara intrare"
 
-msgid "movie/drama (general)"
+msgid "movie (general)"
 msgstr ""
 
 msgid "multi"
@@ -11818,9 +11970,6 @@ msgstr "deschide configurarea nameserverului"
 msgid "original"
 msgstr ""
 
-msgid "original language"
-msgstr ""
-
 msgid "pass"
 msgstr "pass"
 
@@ -11841,6 +11990,13 @@ msgstr ""
 
 msgid "pre-school children's program"
 msgstr ""
+
+msgid "preserve bookmarks in cuts"
+msgstr ""
+
+#, fuzzy
+msgid "priority"
+msgstr "Prioritate"
 
 msgid "receiver software because updates are available."
 msgstr ""
@@ -11865,6 +12021,10 @@ msgstr "elimina dupa aceasta pozitie"
 
 msgid "remove before this position"
 msgstr "elimina inainte de aceasta pozitie"
+
+#, fuzzy
+msgid "remove bookmarks in cuts"
+msgstr "elimina bookmark-ul"
 
 msgid "remove this mark"
 msgstr "elimina aceasta marcare"
@@ -11918,7 +12078,7 @@ msgstr "selecteaza intrarea meniu"
 msgid "serious music/classic music"
 msgstr ""
 
-msgid "serious/classical/religious/historical movie/drama"
+msgid "serious/classical/religious/historical drama"
 msgstr ""
 
 #, fuzzy
@@ -11998,13 +12158,13 @@ msgstr ""
 msgid "slot%s - %s, without backup"
 msgstr ""
 
-msgid "soap/melodram/folkloric"
+msgid "soap/melodrama/folkloric"
 msgstr ""
 
 msgid "social/political issues/economics (general)"
 msgstr ""
 
-msgid "social/spiritual science"
+msgid "social/spiritual sciences"
 msgstr ""
 
 msgid "space"
@@ -12056,10 +12216,10 @@ msgstr "mergi la urmatoarea limba pentru subtitrari"
 msgid "talk show"
 msgstr ""
 
-msgid "team sports"
+msgid "team sports/excluding football"
 msgstr ""
 
-msgid "technology/natural science"
+msgid "technology/natural sciences"
 msgstr ""
 
 msgid "template file"
@@ -12108,13 +12268,16 @@ msgstr ""
 msgid "unknown service"
 msgstr "serviciu necunoscut"
 
-msgid "unpublished"
-msgstr ""
-
 msgid "untestable"
 msgstr ""
 
 msgid "until standby/restart"
+msgstr ""
+
+msgid "use HDMI cacenter"
+msgstr ""
+
+msgid "use best / controlled by HDMI"
 msgstr ""
 
 msgid "user defined"
@@ -12126,6 +12289,9 @@ msgstr "user definit"
 
 msgid "variety show"
 msgstr ""
+
+msgid "version"
+msgstr "versiune"
 
 msgid "vertical"
 msgstr "vertical"
